@@ -1,6 +1,6 @@
 .meta-container {
   display: block;
-  margin-top: 20px; }
+  margin-top: 2rem; }
   .meta-container__inside {
     text-align: right;
     width: 49%;
@@ -9,7 +9,7 @@
 .meta-label {
   display: inline-block;
   font-weight: bold;
-  margin-bottom: 5px;
+  margin-bottom: 0.5rem;
   width: 49%;
   text-align: left; }
 

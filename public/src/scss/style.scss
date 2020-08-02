@@ -3,6 +3,16 @@
  * included in this file.
  */
 @import "~font-awesome/css/font-awesome.css";
+@font-face {
+  font-family: "Open Sans";
+  src: url("../fonts/OpenSans-Regular.eot");
+  src: url("../fonts/OpenSans-Regular.eot?#iefix") format("embedded-opentype");
+  src: url("../fonts/OpenSans-Regular.woff2") format("woff2");
+  src: url("../fonts/OpenSans-Regular.woff") format("woff");
+  src: url("../fonts/OpenSans-Regular.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
 #task-form {
   input[type="text"] {
     appearance: none;
@@ -21,10 +31,11 @@
   }
   .field-container {
     position: relative;
-    margin-bottom: 20px;
+    margin-bottom: 2rem;
     div {
       text-align: right;
       button {
+        font-family: "Open Sans", sans-serif;
         border: none;
         background-color: #cd2653;
         padding: 1rem;
@@ -32,6 +43,7 @@
     }
   }
   .field-msg {
+    font-family: "Open Sans", sans-serif;
     display: none;
     position: absolute;
     left: 2px;
@@ -73,7 +85,7 @@
         display: flex;
         .updateBtn {
           i {
-            margin-top: 3px;
+            margin-top: 0.6rem;
           }
         }
       }
@@ -81,11 +93,17 @@
         margin: 0;
         font-weight: normal;
         font-size: 1.5rem;
+        font-family: "Open Sans", sans-serif;
       }
     }
     a {
       text-decoration: none;
-      margin-right: 0.5rem;
+      i.fa-check-square-o {
+        margin-right: 0.5rem;
+      }
+      i.fa-square-o {
+        margin-right: 0.8rem;
+      }
     }
   }
 }
