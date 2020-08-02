@@ -2417,6 +2417,9 @@
       display: flex; }
       .to-do-list-post-area ul li .single-task__icons .updateBtn i {
         margin-top: 0.6rem; }
+        @media (max-width: 767px) {
+          .to-do-list-post-area ul li .single-task__icons .updateBtn i {
+            margin-top: 0.4rem; } }
     .to-do-list-post-area ul li h6 {
       margin: 0;
       font-weight: normal;

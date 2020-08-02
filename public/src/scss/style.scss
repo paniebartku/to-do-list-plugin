@@ -86,6 +86,9 @@
         .updateBtn {
           i {
             margin-top: 0.6rem;
+            @media (max-width: 767px) {
+              margin-top: 0.4rem;
+            }
           }
         }
       }
